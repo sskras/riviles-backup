@@ -1,0 +1,388 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 7C1B-D508
+
+ Directory of C:\Backup\Euremsta
+
+2025-12-16  02:02    <DIR>          .
+2025-11-13  01:51    <DIR>          ..
+2025-11-12  23:17    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251113.mdf
+2025-11-13  20:56    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251114.mdf
+2025-11-14  17:03    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251115.mdf
+2025-11-15  14:43    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251116.mdf
+2025-11-16  15:16    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251117.mdf
+2025-11-17  20:56    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251118.mdf
+2025-11-18  21:29    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251119.mdf
+2025-11-20  02:00    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251120.mdf
+2025-11-20  18:28    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251121.mdf
+2025-11-21  17:36    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251122.mdf
+2025-11-25  02:00    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251125.mdf
+2025-11-25  22:56    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251126.mdf
+2025-11-26  19:01    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251127.mdf
+2025-11-28  02:00    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251128.mdf
+2025-11-29  02:00    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251129.mdf
+2025-11-29  16:25    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251130.mdf
+2025-11-30  11:35    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251201.mdf
+2025-12-02  02:00    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251202.mdf
+2025-12-02  20:49    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251203.mdf
+2025-12-03  23:02    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251204.mdf
+2025-12-04  18:37    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251205.mdf
+2025-12-05  22:12    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251206.mdf
+2025-12-06  17:14    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251207.mdf
+2025-12-07  14:19    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251208.mdf
+2025-12-09  02:00    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251209.mdf
+2025-12-10  02:00    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251210.mdf
+2025-12-11  01:57    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251211.mdf
+2025-12-12  02:00    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251212.mdf
+2025-12-13  02:00    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251213.mdf
+2025-12-13  08:36    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251214.mdf
+2025-12-14  12:25    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251215.mdf
+2025-12-16  02:00    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data20251216.mdf
+2025-11-12  23:17         1ÿ048ÿ576 EUREMSTAEUR_Log20251113.ldf
+2025-11-13  20:56         1ÿ048ÿ576 EUREMSTAEUR_Log20251114.ldf
+2025-11-14  17:03         1ÿ048ÿ576 EUREMSTAEUR_Log20251115.ldf
+2025-11-15  14:43         1ÿ048ÿ576 EUREMSTAEUR_Log20251116.ldf
+2025-11-16  15:16         1ÿ048ÿ576 EUREMSTAEUR_Log20251117.ldf
+2025-11-17  20:56         1ÿ048ÿ576 EUREMSTAEUR_Log20251118.ldf
+2025-11-18  21:29         1ÿ048ÿ576 EUREMSTAEUR_Log20251119.ldf
+2025-11-20  02:00           786ÿ432 EUREMSTAEUR_Log20251120.ldf
+2025-11-20  18:28           786ÿ432 EUREMSTAEUR_Log20251121.ldf
+2025-11-21  17:36           786ÿ432 EUREMSTAEUR_Log20251122.ldf
+2025-11-25  02:00           516ÿ096 EUREMSTAEUR_Log20251125.ldf
+2025-11-25  22:56           786ÿ432 EUREMSTAEUR_Log20251126.ldf
+2025-11-26  19:01           786ÿ432 EUREMSTAEUR_Log20251127.ldf
+2025-11-28  02:00           786ÿ432 EUREMSTAEUR_Log20251128.ldf
+2025-11-29  02:00           516ÿ096 EUREMSTAEUR_Log20251129.ldf
+2025-11-29  16:25           786ÿ432 EUREMSTAEUR_Log20251130.ldf
+2025-11-30  11:35           786ÿ432 EUREMSTAEUR_Log20251201.ldf
+2025-12-02  02:00           516ÿ096 EUREMSTAEUR_Log20251202.ldf
+2025-12-02  20:49           786ÿ432 EUREMSTAEUR_Log20251203.ldf
+2025-12-03  23:02           786ÿ432 EUREMSTAEUR_Log20251204.ldf
+2025-12-04  18:37           786ÿ432 EUREMSTAEUR_Log20251205.ldf
+2025-12-05  22:12           786ÿ432 EUREMSTAEUR_Log20251206.ldf
+2025-12-06  17:14           786ÿ432 EUREMSTAEUR_Log20251207.ldf
+2025-12-07  14:19           786ÿ432 EUREMSTAEUR_Log20251208.ldf
+2025-12-09  02:00           516ÿ096 EUREMSTAEUR_Log20251209.ldf
+2025-12-10  02:00           786ÿ432 EUREMSTAEUR_Log20251210.ldf
+2025-12-11  01:57           786ÿ432 EUREMSTAEUR_Log20251211.ldf
+2025-12-12  02:00           786ÿ432 EUREMSTAEUR_Log20251212.ldf
+2025-12-13  02:00           786ÿ432 EUREMSTAEUR_Log20251213.ldf
+2025-12-13  08:36           786ÿ432 EUREMSTAEUR_Log20251214.ldf
+2025-12-14  12:25           786ÿ432 EUREMSTAEUR_Log20251215.ldf
+2025-12-16  02:00           516ÿ096 EUREMSTAEUR_Log20251216.ldf
+              64 File(s) 323ÿ305ÿ824ÿ256 bytes
+               2 Dir(s)  570ÿ081ÿ521ÿ664 bytes free
+ Volume in drive C has no label.
+ Volume Serial Number is 7C1B-D508
+
+ Directory of C:\Backup\Db
+
+2025-12-16  02:01    <DIR>          .
+2025-11-13  01:51    <DIR>          ..
+2025-12-15  08:38     1ÿ472ÿ397ÿ312 Euremsta.mdf
+2025-12-15  08:38     1ÿ216ÿ806ÿ912 EUREMSTAE_Data.mdf
+2025-12-15  08:38         6ÿ422ÿ528 EUREMSTAE_Log.ldf
+2025-12-15  08:38       224ÿ526ÿ336 Euremsta_log.LDF
+2025-08-09  18:40         4ÿ194ÿ304 master.mdf
+2025-08-09  18:40         1ÿ310ÿ720 mastlog.ldf
+2025-08-09  18:40         2ÿ359ÿ296 model.mdf
+2025-08-09  18:40           786ÿ432 modellog.ldf
+2025-08-09  18:40        15ÿ466ÿ496 MSDBData.mdf
+2025-08-09  18:40         3ÿ211ÿ264 MSDBLog.ldf
+2025-08-09  18:40         2ÿ359ÿ296 tempdb.mdf
+2025-08-09  18:40           524ÿ288 templog.ldf
+              12 File(s)  2ÿ950ÿ365ÿ184 bytes
+               2 Dir(s)  570ÿ081ÿ415ÿ168 bytes free
+ Volume in drive C has no label.
+ Volume Serial Number is 7C1B-D508
+
+ Directory of C:\Backup\data
+
+2025-11-13  01:50    <DIR>          .
+2025-11-13  01:51    <DIR>          ..
+2025-12-16  02:00         5ÿ636ÿ096 master.mdf
+2025-12-16  02:00         2ÿ097ÿ152 mastlog.ldf
+2025-12-16  02:00         8ÿ388ÿ608 model.mdf
+2025-12-16  02:00         8ÿ388ÿ608 modellog.ldf
+2019-09-24  14:09        14ÿ024ÿ704 model_msdbdata.mdf
+2019-09-24  14:09           524ÿ288 model_msdblog.ldf
+2019-09-24  14:09           524ÿ288 model_replicatedmaster.ldf
+2019-09-24  14:09         4ÿ653ÿ056 model_replicatedmaster.mdf
+2025-12-16  02:00        20ÿ643ÿ840 MSDBData.mdf
+2025-12-16  02:00        22ÿ675ÿ456 MSDBLog.ldf
+2025-08-10  07:49               778 MS_AgentSigningCertificate.cer
+2025-09-10  06:38               778 MS_AgentSigningCertificate42793E88-D479-45F0-ADF1-85A03A5002C9.cer
+2025-11-12  00:54               778 MS_AgentSigningCertificate464A348A-1FFA-4509-9E8F-566662FE85F9.cer
+2025-08-12  21:50               778 MS_AgentSigningCertificate822DD179-7EE4-45BB-9BE2-5C68DD0ED36C.cer
+2025-12-15  16:02        75ÿ497ÿ472 tempdb.mdf
+2025-12-16  02:00         8ÿ388ÿ608 templog.ldf
+              16 File(s)    171ÿ445ÿ288 bytes
+               2 Dir(s)  570ÿ081ÿ341ÿ440 bytes free
+ Volume in drive C has no label.
+ Volume Serial Number is 7C1B-D508
+
+ Directory of C:\Backup
+
+2025-11-13  01:51    <DIR>          .
+2025-11-13  01:50    <DIR>          data
+2025-12-16  02:01    <DIR>          Db
+2025-12-16  02:02    <DIR>          Euremsta
+               0 File(s)              0 bytes
+               4 Dir(s)  570ÿ080ÿ890ÿ880 bytes free
+ Volume in drive C has no label.
+ Volume Serial Number is 7C1B-D508
+
+ Directory of C:\Db
+
+2025-11-12  23:54    <DIR>          .
+2025-12-16  16:24     1ÿ472ÿ397ÿ312 Euremsta.mdf
+2025-12-16  07:08    10ÿ102ÿ505ÿ472 EUREMSTAEUR_Data.mdf
+2025-12-16  07:08         1ÿ048ÿ576 EUREMSTAEUR_Log.ldf
+2025-12-16  16:25     1ÿ216ÿ806ÿ912 EUREMSTAE_Data.mdf
+2025-12-16  16:25         6ÿ422ÿ528 EUREMSTAE_Log.ldf
+2025-12-16  16:24       224ÿ526ÿ336 Euremsta_log.LDF
+2025-08-09  18:40         4ÿ194ÿ304 master.mdf
+2025-08-09  18:40         1ÿ310ÿ720 mastlog.ldf
+2025-08-09  18:40         2ÿ359ÿ296 model.mdf
+2025-08-09  18:40           786ÿ432 modellog.ldf
+2025-08-09  18:40        15ÿ466ÿ496 MSDBData.mdf
+2025-08-09  18:40         3ÿ211ÿ264 MSDBLog.ldf
+2025-08-09  18:40         2ÿ359ÿ296 tempdb.mdf
+2025-08-09  18:40           524ÿ288 templog.ldf
+              14 File(s) 13ÿ053ÿ919ÿ232 bytes
+               1 Dir(s)  570ÿ080ÿ890ÿ880 bytes free
+ Volume in drive C has no label.
+ Volume Serial Number is 7C1B-D508
+
+ Directory of C:\RIV_GAMA
+
+2025-07-17  10:36    <DIR>          .
+2021-06-30  12:52    <DIR>          !SQL ir ODBC info 20210630
+2024-07-15  14:14    <DIR>          ALL
+2018-03-26  11:37            18ÿ944 BALU2000.XLS
+2024-07-15  14:14            86ÿ528 BAL_2000.XLS
+2025-08-27  07:33         1ÿ634ÿ859 bal_err.DBF
+2016-02-22  14:47           264ÿ704 BARCODELIBRARY.DLL
+2024-07-15  14:14            38ÿ226 BDAR_PVZ_DUOMENU_SAUGYKLOS.EIP
+2024-07-15  14:14           117ÿ605 BDAR_PVZ_SUBJEKTU_KATEGORIJOS.EIP
+2024-07-15  14:16    <DIR>          BENDRAS
+2024-07-15  14:15        11ÿ017ÿ392 CHILKATAX-9.5.0-WIN32.DLL
+2022-02-01  15:03         5ÿ027ÿ328 CHILKATAX-9.5.0-WIN32.MSI
+2022-02-01  15:03         5ÿ168ÿ640 CHILKATAX-9.5.0.88-WIN32.MSI
+2024-07-15  14:15         5ÿ302ÿ272 CHILKATAX-9.5.0.93-WIN32.MSI
+2024-07-15  14:15               110 CHILKAT_INSTALL.BAT
+2024-07-15  14:15               175 CHILKAT_REMOVE.BAT
+2010-02-12  10:02                65 CONFIG.FPW
+2020-03-16  15:00    <DIR>          DATA
+2015-02-10  15:49       202ÿ139ÿ831 Data.zip
+2020-03-16  15:01    <DIR>          DEMO
+2020-03-16  15:01    <DIR>          EUREMSTA
+2022-03-02  14:56               155 Euremsta.BAT
+2025-12-08  10:57    <DIR>          EUREMSTAE
+2020-03-16  15:01    <DIR>          EUREMSTAtestas
+2017-03-30  16:46             1ÿ769 fox6user.dbf
+2025-12-16  16:14            23ÿ680 fox6user.FPT
+2024-07-15  14:15           876ÿ273 FOXCHARTS.VCT
+2024-07-15  14:15             4ÿ630 FOXCHARTS.VCX
+2017-03-01  13:07                 0 FOXUSER.DBF
+2017-03-01  13:07               576 FOXUSER.FPT
+2024-07-15  14:15               321 GAMA_BACKUP.BAT
+2024-07-15  14:15                16 GAMA_BACKUP_NO.TXT
+2010-02-12  10:02         1ÿ700ÿ352 GDIPLUS.DLL
+2024-07-15  14:15            48ÿ967 GDIPLUSX.VCT
+2024-07-15  14:15             3ÿ212 GDIPLUSX.VCX
+2024-07-15  14:15            17ÿ799 GRPAJ.APP
+2024-07-15  14:15           110ÿ592 HNDLIB.DLL
+2011-10-14  11:27             3ÿ593 impk_po_ro.BAK
+2011-10-14  11:29             3ÿ785 impk_po_ro.FXP
+2011-10-14  11:29             3ÿ593 impk_po_ro.prg
+2011-10-14  11:15             3ÿ597 impk_ro_po.BAK
+2011-10-24  16:01             3ÿ635 impk_ro_po.FXP
+2011-10-24  16:01             3ÿ597 impk_ro_po.prg
+2011-10-14  11:15             3ÿ737 impk_ro_vd.BAK
+2011-10-24  16:02             3ÿ590 impk_ro_vd.FXP
+2011-10-24  16:01             3ÿ740 impk_ro_vd.prg
+2024-07-15  14:15             4ÿ913 INTRASTAT.JPG
+2024-07-15  14:15            11ÿ553 ISAF_IMPORTO_SABLONAS.XLSX
+2024-07-15  14:15               175 LIB_INSTALL.BAT
+2024-07-15  14:15            11ÿ890 LS.JPG
+2010-02-12  10:02           503ÿ808 MSVCP71.DLL
+2010-02-12  10:02           352ÿ256 MSVCR71.DLL
+2024-07-15  14:15             2ÿ964 MUITINE.JPG
+2010-02-12  10:02               397 PERZIURA.FXP
+2024-07-15  14:15           416ÿ768 QRCODELIB.DLL
+2020-03-16  15:02    <DIR>          REPORT
+2024-07-15  14:15             3ÿ556 RG_SS_PVM_DEK.PRG
+2024-07-15  14:15            15ÿ628 RIVILE1_LOGO.JPG
+2024-07-15  14:15             3ÿ180 RIVILE2_LOGO.JPG
+2024-07-15  14:15           196ÿ304 RIVILE_LOGO.BMP
+2010-02-12  10:03        13ÿ098ÿ408 RIV_AP9.EXE
+2014-08-05  13:34        14ÿ100ÿ392 RIV_AP9_V2.EXE
+2015-01-02  11:03           917ÿ948 riv_eur (5).zip
+2014-12-31  12:52           972ÿ646 riv_eur.exe
+2024-07-15  14:15         2ÿ740ÿ862 RIV_GAMA.DLL
+2024-07-15  14:15         5ÿ008ÿ137 RIV_GAMA.EXE
+2025-08-12  15:32             1ÿ500 RIV_GAMA.EXE - Shortcut.lnk
+2024-07-15  14:15             1ÿ080 RIV_LOGO26.GIF
+2010-02-12  10:03         1ÿ549ÿ766 RIV_SOLO.DLL
+2010-02-12  10:03         3ÿ980ÿ386 RIV_SOLO.EXE
+2010-02-12  10:03         1ÿ874ÿ576 RIV_SRV9.EXE
+2024-07-15  14:15           209ÿ487 RIV_SRV9_V2.EXE
+2024-07-15  14:15             1ÿ356 SEPA_MOKEJIMO_TIPAI.PVZ
+2020-03-16  15:02    <DIR>          setup
+2017-04-05  15:31               614 Shortcut to RIV_GAMA.EXE.lnk
+2010-02-12  10:03               115 SP_DOS.BAT
+2024-07-15  14:15               954 SVEIDRAK.DBF
+2024-07-15  14:15            15ÿ744 SVEIDRAK.FPT
+2024-07-15  14:15               126 SVEIDRAU.BAT
+2024-07-15  14:15               190 SVEIDRAZ.BAT
+2010-02-12  10:03                99 SYB_F60.BAT
+2010-02-12  10:03                27 SYB_F80.BAT
+2010-02-12  10:03                44 SYB_FOR.BAT
+2010-02-12  10:03                91 SYB_KOP.BAT
+2010-02-12  10:03                78 SYB_REP.BAT
+2010-02-12  10:03                76 SYB_ST80.BAT
+2010-02-12  10:03               120 SYB_STAR.BAT
+2010-02-12  10:03                35 SYB_STOP.BAT
+2024-07-15  14:15    <DIR>          SYSTEM
+2024-07-15  14:15           839ÿ542 SYSTEM.APP
+2010-02-12  10:03               238 TRUE.BMP
+2024-07-15  14:15           122ÿ880 VFPENCRYPTION.FLL
+2024-07-15  14:15             2ÿ869 VMI_SERTIFIKATAS.BAT
+2024-07-15  14:15           150ÿ983 WIZARD_GO.APP
+2024-07-15  14:15            69ÿ632 XFRXLIB.FLL
+2010-02-12  10:03            72ÿ192 ZLIB.DLL
+2011-10-14  11:35             1ÿ003 _command.prg
+              85 File(s)    280ÿ895ÿ476 bytes
+              12 Dir(s)  570ÿ080ÿ874ÿ496 bytes free
+ Volume in drive C has no label.
+ Volume Serial Number is 7C1B-D508
+
+ Directory of C:\RIV_GAMA
+
+2025-07-17  10:36    <DIR>          .
+2021-06-30  12:52    <DIR>          !SQL ir ODBC info 20210630
+2024-07-15  14:14    <DIR>          ALL
+2018-03-26  11:37            18ÿ944 BALU2000.XLS
+2024-07-15  14:14            86ÿ528 BAL_2000.XLS
+2025-08-27  07:33         1ÿ634ÿ859 bal_err.DBF
+2016-02-22  14:47           264ÿ704 BARCODELIBRARY.DLL
+2024-07-15  14:14            38ÿ226 BDAR_PVZ_DUOMENU_SAUGYKLOS.EIP
+2024-07-15  14:14           117ÿ605 BDAR_PVZ_SUBJEKTU_KATEGORIJOS.EIP
+2024-07-15  14:16    <DIR>          BENDRAS
+2024-07-15  14:15        11ÿ017ÿ392 CHILKATAX-9.5.0-WIN32.DLL
+2022-02-01  15:03         5ÿ027ÿ328 CHILKATAX-9.5.0-WIN32.MSI
+2022-02-01  15:03         5ÿ168ÿ640 CHILKATAX-9.5.0.88-WIN32.MSI
+2024-07-15  14:15         5ÿ302ÿ272 CHILKATAX-9.5.0.93-WIN32.MSI
+2024-07-15  14:15               110 CHILKAT_INSTALL.BAT
+2024-07-15  14:15               175 CHILKAT_REMOVE.BAT
+2010-02-12  10:02                65 CONFIG.FPW
+2020-03-16  15:00    <DIR>          DATA
+2015-02-10  15:49       202ÿ139ÿ831 Data.zip
+2020-03-16  15:01    <DIR>          DEMO
+2020-03-16  15:01    <DIR>          EUREMSTA
+2022-03-02  14:56               155 Euremsta.BAT
+2025-12-08  10:57    <DIR>          EUREMSTAE
+2020-03-16  15:01    <DIR>          EUREMSTAtestas
+2017-03-30  16:46             1ÿ769 fox6user.dbf
+2025-12-16  16:57            23ÿ680 fox6user.FPT
+2024-07-15  14:15           876ÿ273 FOXCHARTS.VCT
+2024-07-15  14:15             4ÿ630 FOXCHARTS.VCX
+2017-03-01  13:07                 0 FOXUSER.DBF
+2017-03-01  13:07               576 FOXUSER.FPT
+2024-07-15  14:15               321 GAMA_BACKUP.BAT
+2024-07-15  14:15                16 GAMA_BACKUP_NO.TXT
+2010-02-12  10:02         1ÿ700ÿ352 GDIPLUS.DLL
+2024-07-15  14:15            48ÿ967 GDIPLUSX.VCT
+2024-07-15  14:15             3ÿ212 GDIPLUSX.VCX
+2024-07-15  14:15            17ÿ799 GRPAJ.APP
+2024-07-15  14:15           110ÿ592 HNDLIB.DLL
+2011-10-14  11:27             3ÿ593 impk_po_ro.BAK
+2011-10-14  11:29             3ÿ785 impk_po_ro.FXP
+2011-10-14  11:29             3ÿ593 impk_po_ro.prg
+2011-10-14  11:15             3ÿ597 impk_ro_po.BAK
+2011-10-24  16:01             3ÿ635 impk_ro_po.FXP
+2011-10-24  16:01             3ÿ597 impk_ro_po.prg
+2011-10-14  11:15             3ÿ737 impk_ro_vd.BAK
+2011-10-24  16:02             3ÿ590 impk_ro_vd.FXP
+2011-10-24  16:01             3ÿ740 impk_ro_vd.prg
+2024-07-15  14:15             4ÿ913 INTRASTAT.JPG
+2024-07-15  14:15            11ÿ553 ISAF_IMPORTO_SABLONAS.XLSX
+2024-07-15  14:15               175 LIB_INSTALL.BAT
+2024-07-15  14:15            11ÿ890 LS.JPG
+2010-02-12  10:02           503ÿ808 MSVCP71.DLL
+2010-02-12  10:02           352ÿ256 MSVCR71.DLL
+2024-07-15  14:15             2ÿ964 MUITINE.JPG
+2010-02-12  10:02               397 PERZIURA.FXP
+2024-07-15  14:15           416ÿ768 QRCODELIB.DLL
+2020-03-16  15:02    <DIR>          REPORT
+2024-07-15  14:15             3ÿ556 RG_SS_PVM_DEK.PRG
+2024-07-15  14:15            15ÿ628 RIVILE1_LOGO.JPG
+2024-07-15  14:15             3ÿ180 RIVILE2_LOGO.JPG
+2024-07-15  14:15           196ÿ304 RIVILE_LOGO.BMP
+2010-02-12  10:03        13ÿ098ÿ408 RIV_AP9.EXE
+2014-08-05  13:34        14ÿ100ÿ392 RIV_AP9_V2.EXE
+2015-01-02  11:03           917ÿ948 riv_eur (5).zip
+2014-12-31  12:52           972ÿ646 riv_eur.exe
+2024-07-15  14:15         2ÿ740ÿ862 RIV_GAMA.DLL
+2024-07-15  14:15         5ÿ008ÿ137 RIV_GAMA.EXE
+2025-08-12  15:32             1ÿ500 RIV_GAMA.EXE - Shortcut.lnk
+2024-07-15  14:15             1ÿ080 RIV_LOGO26.GIF
+2010-02-12  10:03         1ÿ549ÿ766 RIV_SOLO.DLL
+2010-02-12  10:03         3ÿ980ÿ386 RIV_SOLO.EXE
+2010-02-12  10:03         1ÿ874ÿ576 RIV_SRV9.EXE
+2024-07-15  14:15           209ÿ487 RIV_SRV9_V2.EXE
+2024-07-15  14:15             1ÿ356 SEPA_MOKEJIMO_TIPAI.PVZ
+2020-03-16  15:02    <DIR>          setup
+2017-04-05  15:31               614 Shortcut to RIV_GAMA.EXE.lnk
+2010-02-12  10:03               115 SP_DOS.BAT
+2024-07-15  14:15               954 SVEIDRAK.DBF
+2024-07-15  14:15            15ÿ744 SVEIDRAK.FPT
+2024-07-15  14:15               126 SVEIDRAU.BAT
+2024-07-15  14:15               190 SVEIDRAZ.BAT
+2010-02-12  10:03                99 SYB_F60.BAT
+2010-02-12  10:03                27 SYB_F80.BAT
+2010-02-12  10:03                44 SYB_FOR.BAT
+2010-02-12  10:03                91 SYB_KOP.BAT
+2010-02-12  10:03                78 SYB_REP.BAT
+2010-02-12  10:03                76 SYB_ST80.BAT
+2010-02-12  10:03               120 SYB_STAR.BAT
+2010-02-12  10:03                35 SYB_STOP.BAT
+2024-07-15  14:15    <DIR>          SYSTEM
+2024-07-15  14:15           839ÿ542 SYSTEM.APP
+2010-02-12  10:03               238 TRUE.BMP
+2024-07-15  14:15           122ÿ880 VFPENCRYPTION.FLL
+2024-07-15  14:15             2ÿ869 VMI_SERTIFIKATAS.BAT
+2024-07-15  14:15           150ÿ983 WIZARD_GO.APP
+2024-07-15  14:15            69ÿ632 XFRXLIB.FLL
+2010-02-12  10:03            72ÿ192 ZLIB.DLL
+2011-10-14  11:35             1ÿ003 _command.prg
+              85 File(s)    280ÿ895ÿ476 bytes
+              12 Dir(s)  570ÿ080ÿ231ÿ424 bytes free
+ Volume in drive C has no label.
+ Volume Serial Number is 7C1B-D508
+
+ Directory of c:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA
+
+ Volume in drive C has no label.
+ Volume Serial Number is 7C1B-D508
+
+ Directory of c:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA
+
+ Volume in drive C has no label.
+ Volume Serial Number is 7C1B-D508
+
+ Directory of c:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL
+
+2025-08-10  00:46    <DIR>          .
+2025-08-10  00:46    <DIR>          ..
+2025-08-10  00:46    <DIR>          Backup
+2025-11-12  00:54    <DIR>          Binn
+2025-11-12  00:54    <DIR>          DATA
+2025-11-12  00:53    <DIR>          Install
+2025-08-10  00:46    <DIR>          JOBS
+2025-12-16  02:01    <DIR>          Log
+2025-08-10  00:46    <DIR>          repldata
+2019-09-24  14:09           118ÿ376 sql_engine_core_inst_keyfile.dll
+2025-08-10  00:46    <DIR>          Template Data
+               1 File(s)        118ÿ376 bytes
+              10 Dir(s)  570ÿ081ÿ447ÿ936 bytes free
