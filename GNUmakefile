@@ -39,3 +39,6 @@ all:
 
 desc:
 	@echo "${A}"
+
+concept:
+	@cat data/rivile-db-files.txt | awk -f dir2fullpaths
