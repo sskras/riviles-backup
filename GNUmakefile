@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: BlueOak-1.0.0
-# SPDX-FileCopyrightText: 2024 Saulius Krasuckas <saulius2_at_ar-fi_point_lt> | sskras
+# SPDX-FileCopyrightText: 2024, 2026 Saulius Krasuckas <saulius2_at_ar-fi_point_lt> | sskras
 
-A = An introductory description of this Makefile (a TODO).
+A = Backup the binaries + configured databases of Rivilė
 
 
 all:
