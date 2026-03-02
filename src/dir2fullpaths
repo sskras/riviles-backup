@@ -12,7 +12,7 @@
 Dir && /[0-9] File\(s\)/ \
 {
     print Curr_dir_line
-    Curr_dir_line = Dir = ""
+    Dir = ""
 }
 
 Dir && /^2/ && !/\.\.$/ \
