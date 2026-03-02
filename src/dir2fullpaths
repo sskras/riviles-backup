@@ -34,7 +34,6 @@ Dir && /^2/ && !/\.\.$/ \
         # Got the current dir
 
         Curr_found = 1
-        sub(/..$/, "")
     }
     else
     {
@@ -44,7 +43,11 @@ Dir && /^2/ && !/\.\.$/ \
     Dir_line = sprintf ("%s -> %s\\%s", Timestamp, Dir, $0)
 
     if (Curr_found)
+    {
+        # Trim the trailing, reduntant `.\` substring:
+        sub (/\.\\$/, "", Dir_line)
         Curr_dir_line = Dir_line
+    }
     else
         print Dir_line
 }
