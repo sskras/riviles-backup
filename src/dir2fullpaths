@@ -29,6 +29,9 @@ Dir && /^2/ && !/\.\.$/ \
     # Remove the string leading the name of a child item of the dir:
     sub(Leading_str, "")
 
+    # Assemble the line of an enumerated item:
+    Item = sprintf ("%s -> %s\\%s", Timestamp, Dir, $0)
+
     if ( $NF == ".\\" )
     {
         # Got the current dir
@@ -40,14 +43,12 @@ Dir && /^2/ && !/\.\.$/ \
         Curr_found = 0
     }
 
-    Dir_line = sprintf ("%s -> %s\\%s", Timestamp, Dir, $0)
-
     if (Curr_found)
     {
         # Trim the trailing, reduntant `.\` substring:
-        sub (/\.\\$/, "", Dir_line)
-        Curr_dir_line = Dir_line
+        sub (/\.\\$/, "", Item)
+        Curr_dir_line = Item
     }
     else
-        print Dir_line
+        print Item
 }
