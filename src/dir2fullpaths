@@ -35,16 +35,6 @@ Dir && /^2/ && !/\.\.$/ \
     if ( $NF == ".\\" )
     {
         # Got the current dir
-
-        Curr_found = 1
-    }
-    else
-    {
-        Curr_found = 0
-    }
-
-    if (Curr_found)
-    {
         # Trim the trailing, reduntant `.\` substring:
         sub (/\.\\$/, "", Item)
         Curr_dir_line = Item
