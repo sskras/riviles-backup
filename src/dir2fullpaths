@@ -27,10 +27,11 @@ Dir && /^2/ && !/\.\.$/ \
     Leading_str = Timestamp "    +(<DIR> +|[0-9_]+ )"
 
     # Remove the string leading the name of a child item of the dir:
-    sub(Leading_str, "")
+    Item_name = gensub(Leading_str, "", 1)
+    Item_path = Dir "\\" Item_name
 
     # Assemble the line of an enumerated item:
-    Item = sprintf ("%s -> %s\\%s", Timestamp, Dir, $0)
+    Item = sprintf ("%s -> %s", Timestamp, Item_path)
 
     # Got the current dir ?
     if ( $NF == ".\\" )
@@ -44,5 +45,5 @@ Dir && /^2/ && !/\.\.$/ \
     }
 
     # Print every child item found in the current dir:
-        print Item
+    print Item
 }
