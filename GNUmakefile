@@ -40,5 +40,5 @@ all:
 desc:
 	@echo "${A}"
 
-concept:
+test-files:
 	@cat data/rivile-db-files.txt | awk -f src/dir2fullpaths
