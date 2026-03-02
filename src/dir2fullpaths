@@ -17,7 +17,7 @@ Dir && /[0-9] File\(s\)/ \
 
 Dir && /^2/ && !/\.\.$/ \
 {
-    Timestamp = $1" "$2
+    Timestamp = $1"  "$2
 
     if ( $NF == "." )
     {
@@ -31,7 +31,7 @@ Dir && /^2/ && !/\.\.$/ \
             sub(/$/, "\\")
     }
 
-    Prefix = $1"  "$2"    +(<DIR> +|[0-9_]+ )"
+    Prefix = Timestamp "    +(<DIR> +|[0-9_]+ )"
     sub(Prefix, "")
     Dir_line = sprintf ("%s -> %s\\%s", Timestamp, Dir, $0)
 
