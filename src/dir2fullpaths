@@ -1,1 +1,11 @@
-/\xff/ { gsub("\xFF", "_") } /^ Directory of/ { sub(/^ Directory of /, ""); Dir = $0 } Dir && /[0-9] File\(s\)/ { print Curr_dir_line; Curr_dir_line = Dir = "" } Dir && /^2/ && !/\.\.$/ { Timestamp = $1" "$2; if ( $NF == "." ) { Curr_found = 1; sub(/.$/, ""); } else { Curr_found = 0; if ($0 ~ "<DIR>") sub(/$/, "\\") }; Prefix = $1"  "$2"    +(<DIR> +|[0-9_]+ )"; sub(Prefix, ""); Dir_line = sprintf ("%s -> %s\\%s", Timestamp, Dir, $0); if (Curr_found) Curr_dir_line = Dir_line; else print Dir_line }
+/\xff/ \
+{ gsub("\xFF", "_") }
+
+/^ Directory of/ \
+{ sub(/^ Directory of /, ""); Dir = $0 }
+
+Dir && /[0-9] File\(s\)/ \
+{ print Curr_dir_line; Curr_dir_line = Dir = "" }
+
+Dir && /^2/ && !/\.\.$/ \
+{ Timestamp = $1" "$2; if ( $NF == "." ) { Curr_found = 1; sub(/.$/, ""); } else { Curr_found = 0; if ($0 ~ "<DIR>") sub(/$/, "\\") }; Prefix = $1"  "$2"    +(<DIR> +|[0-9_]+ )"; sub(Prefix, ""); Dir_line = sprintf ("%s -> %s\\%s", Timestamp, Dir, $0); if (Curr_found) Curr_dir_line = Dir_line; else print Dir_line }
