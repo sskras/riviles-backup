@@ -41,4 +41,4 @@ desc:
 	@echo "${A}"
 
 concept:
-	@cat data/rivile-db-files.txt | awk -f dir2fullpaths
+	@cat data/rivile-db-files.txt | awk -f src/dir2fullpaths
