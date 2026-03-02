@@ -32,13 +32,17 @@ Dir && /^2/ && !/\.\.$/ \
     # Assemble the line of an enumerated item:
     Item = sprintf ("%s -> %s\\%s", Timestamp, Dir, $0)
 
+    # Got the current dir ?
     if ( $NF == ".\\" )
     {
-        # Got the current dir
         # Trim the trailing, reduntant `.\` substring:
         sub (/\.\\$/, "", Item)
+
+        # Save the dir for processing later, following all child items:
         Curr_dir_line = Item
+        next
     }
-    else
+
+    # Print every child item found in the current dir:
         print Item
 }
