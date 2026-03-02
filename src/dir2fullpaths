@@ -17,18 +17,24 @@ Dir && /[0-9] File\(s\)/ \
 
 Dir && /^2/ && !/\.\.$/ \
 {
+    # Add trailing backslash to the dirname so after removal
+    # of the leading string we could still know it's a dir:
+
+    if ($0 ~ "<DIR>")
+        sub(/$/, "\\")
+
     Timestamp = $1"  "$2
 
-    if ( $NF == "." )
+    if ( $NF == ".\\" )
     {
+        # Got the current dir
+
         Curr_found = 1
-        sub(/.$/, "")
+        sub(/..$/, "")
     }
     else
     {
         Curr_found = 0
-        if ($0 ~ "<DIR>")
-            sub(/$/, "\\")
     }
 
     Prefix = Timestamp "    +(<DIR> +|[0-9_]+ )"
