@@ -1,5 +1,10 @@
 #! /usr/bin/env -S awk -f
 
+# SPDX-License-Identifier: BlueOak-1.0.0
+# SPDX-FileCopyrightText: 2026 Saulius Krasuckas <saulius2_at_ar-fi_point_lt> | sskras
+
+# Convert the NT DIR output to a list of full pathnames of the directory child items.
+
 /\xff/ \
 {
     gsub("\xFF", "_")
