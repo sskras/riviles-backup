@@ -54,7 +54,7 @@ Dir && /^2/ && !/\.\.$/ \
     sub(/ +/, "T", Timestamp)
 
     # Assemble the line of an enumerated item:
-    Item = sprintf ("%s -> %s", Timestamp, Item_path)
+    Item = sprintf ("%s %s", Timestamp, Item_path)
 
     # Got the current dir ?
     if ( $NF == ".\\" )

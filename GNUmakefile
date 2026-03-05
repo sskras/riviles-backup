@@ -43,5 +43,5 @@ desc:
 test-files:
 	@cat data/rivile-db-files.txt               \
 	| src/dir2fullpaths                         \
-	| sort -urk3                                \
+	| sort -urk2                                \
 
