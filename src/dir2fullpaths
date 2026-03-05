@@ -36,12 +36,6 @@ Dir && /[0-9] File\(s\)/ \
 
 Dir && /^2/ && !/\.\.$/ \
 {
-    # Add trailing backslash to the dirname so after removal
-    # of the leading string we could still know it's a dir:
-
-    if ($0 ~ "<DIR>")
-        sub(/$/, "\\")
-
     Timestamp = $1"  "$2
     Leading_str = Timestamp "    +(<DIR> +|[0-9_]+ )"
 
@@ -50,10 +44,9 @@ Dir && /^2/ && !/\.\.$/ \
     sub(/ +/, "T", Timestamp)
 
     # Got the current dir ?
-    if ( $NF == ".\\" )
+    if ( $NF == "." )
     {
-        # Save the dir timestampt for processing it later,
-        # following all child items:
+        # Save the timestamp for processing it later, following all child items:
         Curr_dir_timestamp = Timestamp
         next
     }
@@ -61,6 +54,12 @@ Dir && /^2/ && !/\.\.$/ \
     # Remove the string leading the name of a child item of the dir:
     Item_name = gensub(Leading_str, "", 1)
     Item_path = Dir"\\"Item_name
+
+    # Add trailing backslash to the dirname so after removal
+    # of the leading string we could still know it's a dir:
+
+    if ($0 ~ "<DIR>")
+        sub(/$/, "\\", Item_path)
 
     # Print every child item found in the current dir:
     Process_item( Item_path, Timestamp )
