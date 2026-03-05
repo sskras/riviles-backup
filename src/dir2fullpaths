@@ -10,17 +10,29 @@
     gsub("\xFF", "_")
 }
 
+function Process_item(Filename, Timestamp)
+{
+    print Filename
+}
+
+# Start of dirlist found:
+
 /^ Directory of/ \
 {
     sub(/^ Directory of /, "")
     Dir = $0
 }
 
+# End of dirlist found:
+
 Dir && /[0-9] File\(s\)/ \
 {
-    print Curr_dir_line
+    Process_item( Curr_dir_line )
     Dir = ""
 }
+
+# Process every child item of the directory (except for the parent dir, AKA "..")
+# whose date is 2000+ (TODO some matching flexibility):
 
 Dir && /^2/ && !/\.\.$/ \
 {
@@ -52,5 +64,5 @@ Dir && /^2/ && !/\.\.$/ \
     }
 
     # Print every child item found in the current dir:
-    print Item
+    Process_item( Item )
 }
