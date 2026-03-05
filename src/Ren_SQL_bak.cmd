@@ -1,5 +1,15 @@
 @echo off
 
+: SPDX-License-Identifier: BlueOak-1.0.0
+: SPDX-FileCopyrightText: 2018 Srđan Stanišić <https://www.linkedin.com/in/srdjanstanisic/> | MiViLiSNet
+: SPDX-FileCopyrightText: 2025 Olegas Malikovas <olegasm_at_gmail_point_com>> | v1p3r
+:
+: Via: https://mivilisnet.wordpress.com/2019/04/25/rotating-sql-backup-files/
+
+
+: Rotate MS SQL database backup files.
+
+
 :: BatchGotAdmin
 :-------------------------------------
 REM  --> Check for permissions
