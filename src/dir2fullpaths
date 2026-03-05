@@ -49,10 +49,6 @@ Dir && /^2/ && !/\.\.$/ \
     # `2010-02-12  10:03` => `2010-02-12T10:03`
     sub(/ +/, "T", Timestamp)
 
-    # Remove the string leading the name of a child item of the dir:
-    Item_name = gensub(Leading_str, "", 1)
-    Item_path = Dir"\\"Item_name
-
     # Got the current dir ?
     if ( $NF == ".\\" )
     {
@@ -61,6 +57,10 @@ Dir && /^2/ && !/\.\.$/ \
         Curr_dir_timestamp = Timestamp
         next
     }
+
+    # Remove the string leading the name of a child item of the dir:
+    Item_name = gensub(Leading_str, "", 1)
+    Item_path = Dir"\\"Item_name
 
     # Print every child item found in the current dir:
     Process_item( Item_path, Timestamp )
