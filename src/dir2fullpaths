@@ -27,7 +27,7 @@ function Process_item(Filename, Timestamp)
 
 Dir && /[0-9] File\(s\)/ \
 {
-    Process_item( Curr_dir, Curr_dir_timestamp )
+    Process_item( Dir"\\", Curr_dir_timestamp )
     Dir = ""
 }
 
@@ -47,7 +47,7 @@ Dir && /^2/ && !/\.\.$/ \
 
     # Remove the string leading the name of a child item of the dir:
     Item_name = gensub(Leading_str, "", 1)
-    Item_path = Dir "\\" Item_name
+    Item_path = Dir"\\"Item_name
 
     # Fix the timestamp so it becomes a single token, eg:
     # `2010-02-12  10:03` => `2010-02-12T10:03`
@@ -56,12 +56,8 @@ Dir && /^2/ && !/\.\.$/ \
     # Got the current dir ?
     if ( $NF == ".\\" )
     {
-        # Trim the trailing, reduntant `.\` substring:
-        sub (/\.\\$/, "", Item_path)
-
         # Save the dir for processing later, following all child items:
         Curr_dir_timestamp = Timestamp
-        Curr_dir           = Item_path
         next
     }
 
