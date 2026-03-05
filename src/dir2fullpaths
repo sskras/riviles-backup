@@ -45,18 +45,19 @@ Dir && /^2/ && !/\.\.$/ \
     Timestamp = $1"  "$2
     Leading_str = Timestamp "    +(<DIR> +|[0-9_]+ )"
 
-    # Remove the string leading the name of a child item of the dir:
-    Item_name = gensub(Leading_str, "", 1)
-    Item_path = Dir"\\"Item_name
-
     # Fix the timestamp so it becomes a single token, eg:
     # `2010-02-12  10:03` => `2010-02-12T10:03`
     sub(/ +/, "T", Timestamp)
 
+    # Remove the string leading the name of a child item of the dir:
+    Item_name = gensub(Leading_str, "", 1)
+    Item_path = Dir"\\"Item_name
+
     # Got the current dir ?
     if ( $NF == ".\\" )
     {
-        # Save the dir for processing later, following all child items:
+        # Save the dir timestampt for processing it later,
+        # following all child items:
         Curr_dir_timestamp = Timestamp
         next
     }
