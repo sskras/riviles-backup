@@ -49,6 +49,10 @@ Dir && /^2/ && !/\.\.$/ \
     Item_name = gensub(Leading_str, "", 1)
     Item_path = Dir "\\" Item_name
 
+    # Fix the timestamp so it becomes a single token, eg:
+    # `2010-02-12  10:03` => `2010-02-12T10:03`
+    sub(/ +/, "T", Timestamp)
+
     # Assemble the line of an enumerated item:
     Item = sprintf ("%s -> %s", Timestamp, Item_path)
 
