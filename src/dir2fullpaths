@@ -36,7 +36,10 @@ Dir && /[0-9] File\(s\)/ \
 
 Dir && /^2/ && !/\.\.$/ \
 {
+    # For printing later:
     Timestamp = $1"  "$2
+
+    # For trimming later (to get the plain name of the file):
     Leading_str = Timestamp "    +(<DIR> +|[0-9_]+ )"
 
     # Fix the timestamp so it becomes a single token, eg:
