@@ -12,7 +12,7 @@
 
 function Process_item(Filename, Timestamp)
 {
-    print Timestamp" "Filename
+    printf ("%s \"%s\"\n", Timestamp, Filename)
 }
 
 # Start of dirlist found:
